@@ -39,13 +39,15 @@
 
 # print(float(512))
 
-login = [ ]
-password = [ ]
-a = input("Введите логин: ")
-b = input("Введите пароль: ")
-while True:
-    if login == a and password == b:
-        print( "Добро пожаловать")
-    else:
-        print( "Логин или пароль неверный")
+# login = [ ]
+# password = [ ]
+# a = input("Введите логин: ")
+# b = input("Введите пароль: ")
+# while True:
+#     if login == a and password == b:
+#         print( "Добро пожаловать")
+#     else:
+#         print( "Логин или пароль неверный")
         
+mylist = list('Барсик')
+print(mylist)
