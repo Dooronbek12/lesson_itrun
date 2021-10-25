@@ -53,8 +53,8 @@
 #     lst.append(i) 
 # print(lst) 
 
-lst = []
-a = lst.append(i) for i range(10)
+# lst = []
+# a = for i range(10)
 
 # 10 Задание
 # lst = [] 
@@ -65,4 +65,15 @@ a = lst.append(i) for i range(10)
 
 
 # 11 Задание
-# 12 Задание
+# cars = ["Bmw", "Mersedes", "Lexus", "Kia", "Lada"] 
+# new_cars = [] 
+# for x in cars: 
+#     if "a" in x: 
+#         new_cars.append(x) 
+# print(new_cars) 
+
+# # 12 Задание
+# squares = [] 
+# for i in range(10): 
+#     squares.append(i ** 2) 
+# print(squares) 
