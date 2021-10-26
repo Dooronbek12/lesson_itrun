@@ -47,33 +47,22 @@
 # print(a)
 
 
-# 9 Задание
-# lst = [] 
-# for i in range(10): 
-#     lst.append(i) 
-# print(lst) 
+# 9 Задание 
+# lst = [i for i in range(10)] 
+# print(lst)
 
-# lst = []
-# a = for i range(10)
 
 # 10 Задание
-# lst = [] 
-# for i in range(10): 
-#     if i % 2 == 0: 
-#     lst.append(i) 
-# print(lst) 
+# lst = [i for i in range(10) if i % 2 == 0]
+# print(lst)
 
 
 # 11 Задание
-# cars = ["Bmw", "Mersedes", "Lexus", "Kia", "Lada"] 
-# new_cars = [] 
-# for x in cars: 
-#     if "a" in x: 
-#         new_cars.append(x) 
-# print(new_cars) 
+# cars = ["Bmw", "Mersedes", "Lexus", "Kia", "Lada"]
+# new_cars = [x for x in cars if "a"in x]
+# print(new_cars)
+
 
 # # 12 Задание
-# squares = [] 
-# for i in range(10): 
-#     squares.append(i ** 2) 
-# print(squares) 
+s = [i**2 for i in range(10)]
+print(s)
